@@ -1,0 +1,187 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ahmed | SOP</title>
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+        <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="logo" id="headerTitle">SOP</div>
+            <ul class="nav-links">
+                <li><a href="#about" id="navAbout">About</a></li>
+                <li><a href="#myCourse" id="navMyCourse">My Course</a></li>
+                <li><a href="#contact" id="navContact">Social Media</a></li>
+                <li><a href="#projects" id="navProjects">Projects</a></li>
+            </ul>
+            <div class="actions">
+                <img id="modeIcon" src="sun.jpg" alt="Toggle Mode" class="toggle-icon">
+                <button class="lang-btn" aria-label="Change language">ع</button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main">
+            <div>
+                <p class="title" id="greeting">Hello, I'm</p>
+                <h1 id="logo">SOP</h1>
+                <p class="title" id="jobTitle">Game Developer | Programmer | Content Creator</p>
+            </div>
+            <img src="sop.jpg" alt="profile image" width="350px" class="profile-image" />
+        </main>
+        <!-- Counter Section -->
+        <div class="counter-container">
+            <div class="counter-item">
+                <span class="counter" data-target="5" data-speed="500">0</span>+ <br> <span id="yearsExp">years experience
+                    in game development</span>
+            </div>
+            <div class="counter-item">
+                <span class="counter" data-target="14" data-speed="200">0</span><br> <span id="gamesDev">games
+                    developed</span>
+            </div>
+            <div class="counter-item">
+                <span class="counter" data-target="170" data-speed="30" data-start="70">70</span>+<br> <span
+                    id="views">Million view on YouTube</span>
+            </div>
+        </div>
+
+        <!-- Course Section -->
+        <h1 class="description" id="courseTitle">myCourse</h1>
+        <section id="course-section">
+            <div class="video-container">
+                <video autoplay muted loop loading="lazy">
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div id="offer">
+                    <p>30% OFF</p>
+                </div>
+            </div>
+            <div id="course-description">
+                <h1 class="paragraph" id="courseHeading">Learn 2D Game Development</h1>
+                <p class="paragraph" id="courseText">Master the basics of 2D platformer game creation using <span
+                        style="color:rgb(0, 217, 255); font-weight: 600;">Godot 4</span> in Arabic.</p>
+                <a href="https://www.udemy.com/course/create-a-full-2d-platformer-game-in-godot-4-in-arabic/?couponCode=SOPDEV7"
+                    id="course-link" target="_blank">JOIN NOW</a>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <h2 class="description" style="margin-top: 10rem;" id="socialMediaTitle">Social Media</h2>
+        <section class="channels">
+            <div class="channel" id="channel2">
+                <a href="https://www.youtube.com/@sop2" target="_blank"><img src="channel2.jpg" alt="channel2 logo"
+                        loading="lazy"></a>
+                <h2 class="channel-name" id="channel2Name">SOP2</h2>
+                <p class="channel-description" id="channel2Desc">Programming Channel</p>
+            </div>
+
+            <div class="channel" id="channel1">
+                <a href="https://www.youtube.com/@sop1" target="_blank"><img src="channel1.jpg" alt="channel1 logo"
+                        loading="lazy"></a>
+                <h2 class="channel-name" id="channel1Name">SOP | سوب</h2>
+                <p class="channel-description" id="channel1Desc">Game Development Channel</p>
+            </div>
+        </section>
+
+        <!-- Social Icons -->
+        <div id="social-icon">
+            <a href="https://www.tiktok.com/@sop.dev" target="_blank" aria-label="TikTok"><i
+                    class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/sop.dev" target="_blank" aria-label="Instagram"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ahmed-kubbi-sop-90a573260/" target="_blank" aria-label="LinkedIn"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100064584649086" target="_blank" aria-label="Facebook"><i
+                    class="fa-brands fa-facebook-f" id="facebook"></i></a>
+            <a href="https://x.com/Sopdevv" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+
+        <!-- Projects Section -->
+        <h1 class="description" id="projectsTitle">Explore my Projects</h1>
+        <p id="projects-description">Games & VR, other cool things</p>
+        <section id="games-projects">
+            <h3 class="projects-title" id="gamesTitle">Games</h3>
+            <ul class="games-cards">
+                <li>
+                    <a href="https://sopdev.itch.io/pirate-vs-octopus" target="_blank">
+                        <div class="card">
+                            <img src="image2.jpg" alt="Pirate vs Octopus" loading="lazy">
+                            <div class="card-overlay">
+                                <h2>PIRATE <span style="font-style: italic;">vs</span> OCTOPUS</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://sopdev.itch.io/robohunter" target="_blank">
+                        <div class="card">
+                            <img src="image3.jpg" alt="Robohunter" loading="lazy">
+                            <div class="card-overlay">
+                                <h2>ROBOHUNTER</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://sopdev.itch.io/fl-yghrisha" target="_blank">
+                        <div class="card">
+                            <img src="image1.jpg" alt="Fl-yghrisha" id="Fl-yghrisha" loading="lazy">
+                            <div class="card-overlay">
+                                <h2>Fl-yghrisha</h2>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="https://sopdev.itch.io/" target="_blank" id="games-button">Show All Games</a>
+
+            <div class="projects">
+                <h1 class="projects-title" id="vrTitle">VR Games <img src="vr-icon.jpg" width="60px" loading="lazy"></h1>
+                <ul class="cards">
+                    <li>
+                        <a href="https://www.linkedin.com/posts/ahmed-kubbi-sop-90a573260" target="_blank">
+                            <div class="card">
+                                <img src="vr1.jpg" id="aseer" alt="VR Game" loading="lazy">
+                                <div class="card-overlay">
+                                    <h2>Timeless Trek</h2>
+                                    <p>A game about exploring the culture of Aseer.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://sopdev.itch.io/ancient-egypt" target="_blank">
+                            <div class="card">
+                                <img src="vr2.jpg" alt="Egypt VR Game">
+                                <div class="card-overlay">
+                                    <h2>Ancient Egypt</h2>
+                                    <p>Dive into the wonders of Ancient Egypt!</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <h3 id="footerTitle">Great things coming soon</h3>
+            <p id="footerMadeBy">Made by <span>SOP</span></p>
+        </footer>
+
+        <script type="module" src="script.js"></script>
+    </body>
+
+    </html>
